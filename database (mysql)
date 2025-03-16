@@ -1,0 +1,16 @@
+create database book_shop;
+use book_shop;
+CREATE TABLE Books (
+    s_no VARCHAR(10) PRIMARY KEY,
+    book_name VARCHAR(255),
+    availability_of_book INT,
+    price INT
+);
+CREATE TABLE customer (
+    customer_name VARCHAR(255),
+    age INT,
+    place VARCHAR(255),
+    book_bought VARCHAR(255)
+);
+select * from Books;
+select * from customer;
